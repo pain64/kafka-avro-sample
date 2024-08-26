@@ -1,0 +1,7 @@
+namespace org.example.avro;
+schema Message;
+
+record Message {
+    string? title = null;
+    string message;
+}
